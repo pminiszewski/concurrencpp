@@ -1,0 +1,6 @@
+[wrap-git]
+directory = concurencpp
+url = https://github.com/pminiszewski/concurrencpp.git
+revision = master
+[provide]
+concurencpp = concurencpp_dep
