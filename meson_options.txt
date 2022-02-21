@@ -1,0 +1,1 @@
+option('with_examples', type : 'boolean', value : false)

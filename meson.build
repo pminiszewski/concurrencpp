@@ -27,4 +27,6 @@ include_directories: concurecpp_inc
 
 concurencpp_dep = declare_dependency(link_with: concurecpp_lib, include_directories: concurecpp_inc)
 
+if get_option('with_examples')
 subdir('example')
+endif
