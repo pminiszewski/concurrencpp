@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+
+    {
+      "name": "11_oneshot_timer",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/builddir/example/11_oneshot_timer/11_oneshot_timer.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    }
+  ]
+}
